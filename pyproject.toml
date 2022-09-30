@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "panjson"
+version = "0.1.9"
+description = ""
+authors = ["Peter Andersson <fshsweden@gmail.com>"]
+readme = "README.md"
+packages = [{include = "panjson"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
