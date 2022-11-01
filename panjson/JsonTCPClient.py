@@ -1,3 +1,10 @@
+#
+# For some reason, I designed this client so that even when the remote server disconnects
+# because of an invalid JSON message, this client will send a JSON message back to its owner....
+#
+#
+#
+
 import socket
 from _thread import *
 import queue
